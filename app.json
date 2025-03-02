@@ -10,21 +10,20 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-    "icon": "./assets/images/bePerfect.png"
+      "icon": "./assets/images/bePerfect.png",
+      "bundleIdentifier": "com.anonymous.bePerfect"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff",
-    "icon": "./assets/images/bePerfect.png"
-
+        "icon": "./assets/images/bePerfect.png"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-    "favicon": "./assets/images/beperfect-transparent.png"
-
+      "favicon": "./assets/images/beperfect-transparent.png"
     },
     "plugins": [
       "expo-router",
