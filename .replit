@@ -1,5 +1,35 @@
-run = "cowsay Configure me!"
+run = "npm run start"
 entrypoint = "README.md"
+modules = ["nodejs-20"]
 
 [nix]
 channel = "stable-24_05"
+
+[[ports]]
+localPort = 4040
+externalPort = 3000
+exposeLocalhost = true
+
+[[ports]]
+localPort = 8081
+externalPort = 80
+
+[[ports]]
+localPort = 36301
+externalPort = 3002
+exposeLocalhost = true
+
+[[ports]]
+localPort = 37947
+externalPort = 3003
+exposeLocalhost = true
+
+[[ports]]
+localPort = 39401
+externalPort = 3001
+exposeLocalhost = true
+
+[[ports]]
+localPort = 42689
+externalPort = 4200
+exposeLocalhost = true
